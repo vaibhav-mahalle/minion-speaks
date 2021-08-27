@@ -18,9 +18,12 @@
 
 
 .container-center{
-    max-width: 625px;
+    max-width: 100px;
     margin: auto;
-    padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1.25rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     background-color: #3897bd;
     text-align: center;
     margin-bottom: 30px;
@@ -52,7 +55,7 @@ button{
 }
 
 html { 
-    background: url(./images/fantasy-art-game-of-thrones-daenerys-targaryen-iron-throne-wallpaper-preview.jpg) no-repeat center center fixed; 
+    background: url(./images/minion.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

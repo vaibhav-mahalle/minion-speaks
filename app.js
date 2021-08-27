@@ -15,10 +15,10 @@ function clickHandler()
     var input = txtInput.value ;
 
     fetch(urlGenerator(input))
-    .then(response => response.json)
+    .then(response => response.json())
     .then(json => {
         var translatedText = json.contents.translated;
-        txtOutput.innerText = translatedText; // output
+        output.innerText = translatedText; // output
        })
 }
 
